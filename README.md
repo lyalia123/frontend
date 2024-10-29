@@ -31,7 +31,11 @@ This project is an interactive web application designed for an online clothing s
 ## Getting Started
 
 To get started with this project, clone the repository and open the `index.html` file in your web browser:
+```bash
+git clone git@github.com:lyalia123/frontend.git
+cd frontend
+open index.h
+```
 
-
-###Conclusion
+## Conclusion
 This clothing store website project demonstrates the application of fundamental web development concepts, allowing users to enjoy a personalized shopping experience. The combination of local storage, responsive design, and JavaScript interactivity creates an engaging and user-friendly application.
