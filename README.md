@@ -34,7 +34,6 @@ To get started with this project, clone the repository and open the `index.html`
 ```bash
 git clone git@github.com:lyalia123/frontend.git
 cd frontend
-open index.h
 ```
 
 ## Conclusion
