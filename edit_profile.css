@@ -19,6 +19,20 @@ body{
 .navbar .navbar-brand:hover{
     color:#2E4C72
 }
+/* Стили для больших экранов (например, для компьютеров) */
+@media (min-width: 1024px) {
+    /* Твои стили для компьютера */
+}
+
+/* Стили для планшетов */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Твои стили для планшета */
+}
+
+/* Стили для телефонов */
+@media (max-width: 767px) {
+    /* Твои стили для телефона */
+}
 .navbar .btn:hover{
     color: white;
 }
