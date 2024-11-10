@@ -59,18 +59,52 @@ button.btn:hover{
 }
 /* Стили для больших экранов (например, для компьютеров) */
 @media (min-width: 1024px) {
-    /* Твои стили для компьютера */
+    /* Стили для компьютеров */
+    body {
+        font-size: 18px;
+        padding: 2rem;
+    }
+    .navbar {
+        padding: 1rem 2rem;
+    }
+    .footer-section {
+        padding: 2rem;
+    }
+    /* Другие стили для больших экранов */
 }
 
 /* Стили для планшетов */
 @media (min-width: 768px) and (max-width: 1023px) {
-    /* Твои стили для планшета */
+    /* Стили для планшетов */
+    body {
+        font-size: 16px;
+        padding: 1.5rem;
+    }
+    .navbar {
+        padding: 0.75rem 1.5rem;
+    }
+    .footer-section {
+        padding: 1.5rem;
+    }
+    /* Другие стили для планшетов */
 }
 
 /* Стили для телефонов */
 @media (max-width: 767px) {
-    /* Твои стили для телефона */
-} 
+    /* Стили для телефонов */
+    body {
+        font-size: 14px;
+        padding: 1rem;
+    }
+    .navbar {
+        padding: 0.5rem 1rem;
+    }
+    .footer-section {
+        padding: 1rem;
+    }
+    /* Другие стили для телефонов */
+}
+
 .search-bar {
     display: flex;
     justify-content: center;
